@@ -43,6 +43,7 @@ fun sortArray(userList: Array<Int>, downwards: Boolean): MutableList<Int> {
      return listResult
 }
 
+
 // 5º Crea una función que dado un conjunto de String añada un nuevo elemento que se le pase y devuelva el nuevo array
 fun addElementToArray(inputArray: Array<String>, newElement: String): Array<String> {
      val newArray: MutableList<String> = inputArray.toMutableList()
